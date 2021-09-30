@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Briefcase-Version: 0.3.5
+Name: hamdenplaces
+Formal-Name: Hamden Places
+App-ID: com.example.hamdenplaces
+Version: 0.0.1
+Home-page: https://example.com/hamdenplaces
+Author: Kevin Couillard
+Author-email: kevincouillard4@gmail.com
+Summary: Gives information on certain locations in Hamden that fall under the categories of Gas Stations, Park or Restaurant.

@@ -1,0 +1,49 @@
+[tool.briefcase]
+project_name = "Hamden Places"
+bundle = "com.example"
+version = "0.0.1"
+url = "https://example.com/hamdenplaces"
+license = "BSD license"
+author = 'Kevin Couillard'
+author_email = "kevincouillard4@gmail.com"
+
+[tool.briefcase.app.hamdenplaces]
+formal_name = "Hamden Places"
+description = "Gives information on certain locations in Hamden that fall under the categories of Gas Stations, Park or Restaurant."
+icon = "src/hamdenplaces/resources/hamdenplaces"
+sources = ['src/hamdenplaces']
+requires = []
+
+
+[tool.briefcase.app.hamdenplaces.macOS]
+requires = [
+    'toga-cocoa>=0.3.0.dev20',
+]
+
+[tool.briefcase.app.hamdenplaces.linux]
+requires = [
+    'toga-gtk>=0.3.0.dev20',
+]
+system_requires = [
+    'libgirepository1.0-dev',
+    'libcairo2-dev',
+    'libpango1.0-dev',
+    'libwebkitgtk-3.0-0',
+    'gir1.2-webkit-3.0',
+]
+
+[tool.briefcase.app.hamdenplaces.windows]
+requires = [
+    'toga-winforms>=0.3.0.dev20',
+]
+
+# Mobile deployments
+[tool.briefcase.app.hamdenplaces.iOS]
+requires = [
+    'toga-iOS>=0.3.0.dev20',
+]
+
+[tool.briefcase.app.hamdenplaces.android]
+requires = [
+    'toga-android>=0.3.0.dev20',
+]
